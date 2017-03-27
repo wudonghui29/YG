@@ -53,6 +53,7 @@
 #import "YLDDeviceGeneralInforCell.h"
 #import "YLDFenceNameSelectView.h"
 #import "YLDRemindView.h"
+#import "messageViewModel.h"
 #import "YCXMenu.h"
 //Catagory
 #import "UIViewExt.h"

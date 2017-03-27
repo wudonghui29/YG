@@ -10,9 +10,6 @@
 #import "YLDCommon.h"
 
 @interface YLDAlarmReminderCell()
-@property(nonatomic , strong) UIImageView *icon;
-@property(nonatomic, strong) UILabel *nameLbl;
-@property(nonatomic, strong) UILabel *alarmTypeLbl;
 
 @end
 @implementation YLDAlarmReminderCell

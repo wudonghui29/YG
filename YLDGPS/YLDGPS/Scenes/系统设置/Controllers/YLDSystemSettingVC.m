@@ -8,9 +8,11 @@
 
 #import "YLDSystemSettingVC.h"
 #import "YLDCommon.h"
-@interface YLDSystemSettingVC ()<UITableViewDataSource,UITableViewDelegate>
+@interface YLDSystemSettingVC ()<UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate>
 @property(nonatomic, strong) UITableView *tableView;
-
+@property (nonatomic, assign) BOOL hasNewVer;
+@property (nonatomic, copy) NSString *releaseLog;
+@property (nonatomic, copy) NSString *appUrl;
 @end
 
 @implementation YLDSystemSettingVC
@@ -19,6 +21,7 @@
     [super viewDidLoad];
     self.title = @"系统设置";
     [self addSubViews];
+    [self rac];
 }
 
 - (void)addSubViews{
@@ -37,6 +40,22 @@
         [YLDShow fullSperatorLine:_tableView];
     }
     return _tableView;
+}
+- (void)rac{
+    [[RACObserve(self, hasNewVer) skip:1] subscribeNext:^(id x) {
+        if(self.hasNewVer){
+            UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:self.releaseLog delegate:self cancelButtonTitle:localizedString(@"cancel") destructiveButtonTitle:localizedString(@"update") otherButtonTitles:nil];
+            [sheet showInView:self.view];
+            
+        }else{
+            [SVProgressHUD showInfoWithStatus:@"已经是最新版本"];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [SVProgressHUD dismiss];
+            });
+
+        }
+    }];
+
 }
 #pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -143,6 +162,8 @@
             [self.navigationController pushViewController:changePasswordVC animated:YES];
         }
     
+    }else{
+        [self checkAppUpdate];
     }
 }
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -154,6 +175,29 @@
     
     if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
         [cell setLayoutMargins:UIEdgeInsetsZero];
+    }
+}
+- (void)checkAppUpdate{
+    NSString *ver = [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
+    [YLDAPIManager checkUpdateWithAppBuild:ver success:^(id responseObject) {
+        BOOL r = [responseObject[@"r"] boolValue];
+        if(r){
+            NSString *appUrl = responseObject[@"app_url"];
+            BOOL hasNew = [responseObject[@"has_new"] boolValue];
+            NSString *releaesLog = responseObject[@"release_log"];
+            self.appUrl = appUrl;
+            self.releaseLog = releaesLog;
+            self.hasNewVer = hasNew;
+        }
+    } fail:^(NSError *error) {
+        
+    }];
+}
+#pragma mark UIActionSheetDelegate
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+    NSString *title = [actionSheet buttonTitleAtIndex:buttonIndex];
+    if([title isEqualToString:localizedString(@"update")]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.appUrl]];
     }
 }
 

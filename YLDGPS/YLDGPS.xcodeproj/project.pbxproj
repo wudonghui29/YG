@@ -59,6 +59,7 @@
 		DC348B371E77D84200E9A394 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC348B391E77D84200E9A394 /* Localizable.strings */; };
 		DC348B7F1E780EB100E9A394 /* ADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC348B7C1E780EB100E9A394 /* ADInfo.m */; };
 		DC348B801E780EB100E9A394 /* mainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC348B7E1E780EB100E9A394 /* mainViewModel.m */; };
+		DC3B2E551E88A05C00161CE6 /* messageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B2E541E88A05C00161CE6 /* messageViewModel.m */; };
 		DC3BE6131E73932F00A1B35B /* YLDFenlistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BE6121E73932F00A1B35B /* YLDFenlistCell.m */; };
 		DC3BE6161E739AEA00A1B35B /* YLDShow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BE6151E739AEA00A1B35B /* YLDShow.m */; };
 		DC3BE6191E73A22000A1B35B /* YLDAlarmReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BE6181E73A22000A1B35B /* YLDAlarmReminderCell.m */; };
@@ -211,6 +212,8 @@
 		DC348B7C1E780EB100E9A394 /* ADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADInfo.m; sourceTree = "<group>"; };
 		DC348B7D1E780EB100E9A394 /* mainViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewModel.h; sourceTree = "<group>"; };
 		DC348B7E1E780EB100E9A394 /* mainViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewModel.m; sourceTree = "<group>"; };
+		DC3B2E531E88A05C00161CE6 /* messageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageViewModel.h; sourceTree = "<group>"; };
+		DC3B2E541E88A05C00161CE6 /* messageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageViewModel.m; sourceTree = "<group>"; };
 		DC3BE6111E73932F00A1B35B /* YLDFenlistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDFenlistCell.h; sourceTree = "<group>"; };
 		DC3BE6121E73932F00A1B35B /* YLDFenlistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDFenlistCell.m; sourceTree = "<group>"; };
 		DC3BE6141E739AEA00A1B35B /* YLDShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDShow.h; sourceTree = "<group>"; };
@@ -827,6 +830,8 @@
 		DC0557561E7170C8008AEFD4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC3B2E531E88A05C00161CE6 /* messageViewModel.h */,
+				DC3B2E541E88A05C00161CE6 /* messageViewModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1349,6 +1354,7 @@
 				DC57A8571E77C8F400EDE84F /* Tools.m in Sources */,
 				DC0556A21E715451008AEFD4 /* main.m in Sources */,
 				DC57A83C1E7780EE00EDE84F /* YLDFenceDetailCell.m in Sources */,
+				DC3B2E551E88A05C00161CE6 /* messageViewModel.m in Sources */,
 				DC0599A91E83BE9200B40261 /* YLDChangePasswordCell.m in Sources */,
 				DCF727061E836807006FF41B /* SVProgressAnimatedView.m in Sources */,
 				DC57A83F1E77843900EDE84F /* YLDRemindReceiveVC.m in Sources */,
