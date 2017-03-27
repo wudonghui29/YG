@@ -1,0 +1,197 @@
+/* 
+  Localizable.strings
+  YLDGPS
+
+  Created by faith on 17/3/14.
+  Copyright © 2017年 YDK. All rights reserved.
+*/
+//common
+"logout" = "logout";
+"confirm" = "Confirm";
+"cancel" = "Cancel";
+"save" = "Save";
+"second" = "second";
+"enable" = "Enable";
+"disable" = "Disable";
+"query" = "Query";
+"edit" = "Edit";
+"submit" = "Submit";
+"delete" = "Delete";
+"times" = "Times";
+"hour" = "Hour";
+"minute" = "Minute";
+"update" = "Update";
+"detial" = "Detial";
+"success" = "Success";
+
+//login
+"userName" = "User Name";
+"password" = "Password";
+"login" = "Login";
+"experience" = "Experience";
+"userName_WaringMSG" = "Please input user name";
+"passWord_WaringMSG" = "Please input password";
+"userTextFieldPlaceholder" = "IMEI Number/Group Number";
+"passwordTextFieldPlaceholder" = "Please input password";
+//login->barcodeScanview
+"scanBarcode" = "Scan Barcode";
+"scanViewTips" = "Put the barcode into the box";
+
+//tabbar
+"main" = "Main";
+"device" = "Device";
+"message" = "Message";
+"settings" = "Settings";
+
+//mainView
+"map" = "Map";
+"standard" = "Standard";
+"satellite" = "Satellite";
+"panorama" = "Panorama";
+"navigationTip" = "Please install baidu Map App";
+"navigationTip1" = "Please install google Map App";
+"meters" = "meters";
+"playBack" = "Play Back";
+"streeView" = "Stree View";
+"navigation" = "Navigation";
+"panoramaError" = "No Street View available. Please try again later.";
+"locBDS" = "BDS";
+
+//device
+"allDevice" = "All Device";
+"addDevice" = "Add Device";
+"deviceID" = "Device ID";
+"devicePassword" = "Device password";
+"deviceIDTextFieldPlaceholder" = "Please input device ID";
+"devicepasswordTextFieldPlaceholder" = "Please input device password";
+"add" = "Add";
+"addDeviceIDWarning" = "Please input device ID";
+"addDevicePasswordWarning" = "please input device password";
+"trace" = "Trace";
+"deviceName" = "Device Name";
+"location" = "Location";
+"state" = "State";
+"offline" = "Offline";
+"online" = "Online";
+"track" = "Track";
+"deviceIMEI" = "Device IMEI";
+"deviceSituation" = "Device situation";
+"deviceStatus" = "Device status";
+"currentLocation" = "Current location";
+"deviceSpeed" = "Device Speed";
+"coordinate" = "Coordinate";
+"deviceOperate" = "Device operate";
+"refreshData" = "Refresh Data";
+"startTime" = "Start time";
+"endTime" = "End time";
+"locWay" = "Location mode";
+"speed" = "Speed";
+"electronicFence" = "Electronic fence";
+"createFence" = "Create fence";
+"fenceEdit" = "Fence Edit";
+"deviceUploadRate" = "Device upload rate";
+"overspeedWarnning" = "Overspeed warnning";
+"overspeedSpeed" = "Overspeed speed";
+"lowPowerWarnning" = "Low power warnning";
+"deviceSettings" = "Device settings";
+"setElectronicFence" = "Set electronic fence";
+"numbersBinding" = "Numbers binding";
+"fenceEditTips" = "Please zoom and drag map to set fence";
+"fenceName" = "Fence name";
+"remindType" = "Remind type";
+"remindReceive" = "Remind receive";
+"inRemind" = "In remind";
+"outRemind" = "Out remind";
+"receiveWay" = "Receive way";
+"receiveInterval" = "Receive interval";
+"receiveTimes" = "Receive times";
+"receiveWay1" = "SMS";
+"receiveWay2" = "Email";
+"receiveWay3" = "Call";
+"receiveInterval1" = "5 minutes";
+"receiveInterval2" = "10 minutes";
+"receiveInterval3" = "15 minutes";
+"receiveInterval4" = "30 minutes";
+"receiveTimes1" = "1 times";
+"receiveTimes2" = "2 times";
+"receiveTimes3" = "3 times";
+"receiveRemindInputTitle" = "Please input phone number";
+"receiveRemindInputTitle1" = "Please input email";
+"buttonNumber" = "Button Number";
+"sosNum" = "SOS number";
+"fenceWarning" = "Please input fence name";
+"fenceWarning1" = "Please selecte recive remind";
+"defendOn" = "Defend On";
+"defendOff" = "Defend Off";
+"static" = "static";
+"deleteDevice" = "Delete Device";
+"oilPowerOff" = "Oil and electricity Off";
+"oilPowerResume" = "Oil and electricity Resume";
+"mobileMonitor" = "Mobile Monitor";
+"commandHasBeenSent" = "Command has been sent";
+"power" = "Power";
+"filterLBS"  = "Filter LBS";
+"vibrationAlarm" = "Vibration Alarm";
+"SOSAlarmModel" = "SOS Alarm Model";
+"SOSAlarmModelSMS" = "SMS Alarm";
+"SOSAlarmModelMobile" = "Mobile Alarm";
+"ACCAlarm" = "ACC Alarm";
+"restart" = "Restart";
+"factoryReset" = "Factory Reset";
+"powerOffAlarm" = "Power Off Alarm";
+"workMode" = "Work Mode";
+"workModeNomal" = "Nomal Mode";
+"workModePowerSaving" = "Power Saving Mode";
+"workModeSuperPowerSaving" = "Super Power Saving Mode";
+"workTime" = "Work Time";
+"starTime" = "starTime";
+"lowPowerAlarm" = "Low Power Alarm";
+"phoneCallBack" = "Phone call back";
+"phoneCallBackTips" = "After performing this operation, the device will take the initiative to call the binding mobile phone";
+"petLights" = "Pet Lights";
+"doorSwitch" = "Door Switch";
+"headlightSwitch" = "Headlight Switch";
+//message
+"alarmDetail" = "Alarm Detail";
+"all" = "All";
+"fence" = "Fence";
+"lowPower" = "Low power";
+"overspeed" = "Overspeed";
+"sos" = "SOS";
+"ACC" = "ACC";
+"vibration" = "Vibration";
+"powerDown" = "Power Down";
+"type" = "type";
+"outFenceWarning" = "Out fence warning";
+"lowPowerWarning" = "Low power warning";
+"overspeedWarning" = "Over Speed warning";
+"sosWarning" = "SOS warning";
+"ACCWarning" = "ACC warning";
+"vibrationWarning" = "Vibration Warning";
+"powerDownWarning" = "Power Down Warning";
+"unkonwType" = "Unkonw Type";
+
+//setting
+"systemSettings" = "System Settings";
+"baseSetting" = "Base Setting";
+"trackRefreshTime" = "Track Refresh Time";
+"mapUse" = "Map Use";
+"other" = "Other";
+"about" = "About";
+"language" = "Language";
+"baiduMap" = "Baidu Map";
+"googleMap" = "Google Map";
+"mainRefreshTime" = "Refresh Time";
+"changePassword" = "Change Password";
+"currentDeviceSettings" = "Current Device Settings";
+//setting->changepassword
+"oldPassword" = "Old Password";
+"newPassword" = "New Password";
+"confirmNewPassword" = "Confirm New Password";
+"change" = "Change";
+"changePasswordTips" = "Please fill-in old password";
+"changePasswordTips1" = "Old password invaild";
+"changePasswordTips2" = "Please fill-in new password";
+"changePasswordTips3" = "Please fill-in confirm new password";
+"changePasswordTips4" = "New password and confirm new password are diffent";
+

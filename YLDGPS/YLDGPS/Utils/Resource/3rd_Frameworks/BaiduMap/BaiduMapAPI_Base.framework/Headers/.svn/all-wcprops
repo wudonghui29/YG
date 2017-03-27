@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers
+END
+BMKTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKTypes.h
+END
+BMKVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKVersion.h
+END
+BMKUserLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h
+END
+BMKGeneralDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h
+END
+BMKMapManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h
+END
+BMKBaseComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h
+END

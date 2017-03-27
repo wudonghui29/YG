@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Location.framework/Headers
+END
+BMKLocationService.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Location.framework/Headers/BMKLocationService.h
+END
+BMKLocationComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Location.framework/Headers/BMKLocationComponent.h
+END
+BMKLocationVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Location.framework/Headers/BMKLocationVersion.h
+END

@@ -1,0 +1,196 @@
+/* 
+  Localizable.strings
+  YLDGPS
+
+  Created by faith on 17/3/14.
+  Copyright © 2017年 YDK. All rights reserved.
+*/
+//common
+"logout" = "注销";
+"confirm" = "确认";
+"cancel" = "取消";
+"save" = "保存";
+"second" = "秒";
+"enable" = "开启";
+"disable" = "关闭";
+"query" = "查询";
+"edit" = "编辑";
+"submit" = "提交";
+"delete" = "删除";
+"times" = "次";
+"hour" = "小时";
+"minute" = "分钟";
+"update" = "更新";
+"detial" = "详情";
+"success" = "成功";
+
+//login
+"userName" = "用户名";
+"password" = "密 码";
+"login" = "登录";
+"experience" = "体验";
+"userName_WaringMSG" = "请输入用户名";
+"passWord_WaringMSG" = "请输入密码";
+"userTextFieldPlaceholder" = "IMEI号/集团号";
+"passwordTextFieldPlaceholder" = "请输入密码";
+//login->barcodeScanview
+"scanBarcode" = "扫描条码";
+"scanViewTips" = "将条码放到框内";
+
+//tabbar
+"main" = "首页";
+"device" = "设备";
+"message" = "消息";
+"settings" = "设置";
+
+//mainView
+"map" = "地图";
+"standard" = "标准";
+"satellite" = "卫星";
+"panorama" = "街景";
+"navigationTip" = "请安装百度地图";
+"navigationTip1" = "请安装Google地图";
+"meters" = "米";
+"playBack" = "回放";
+"streeView" = "街景";
+"navigation" = "导航";
+"panoramaError" = "暂无街景提供，请稍后再试。";
+"locBDS" = "北斗定位";
+
+//device
+"allDevice" = "所有设备";
+"addDevice" = "添加设备";
+"deviceID" = "设备账号";
+"devicePassword" = "设备密码";
+"deviceIDTextFieldPlaceholder" = "请输入设备账号";
+"devicepasswordTextFieldPlaceholder" = "请输入设备密码";
+"add" = "添加";
+"addDeviceIDWarning" = "请输入设备账号";
+"addDevicePasswordWarning" = "请输入设备密码";
+"trace" = "追踪";
+"deviceName" = "设备名称";
+"location" = "位置";
+"state" = "状态 ";
+"offline" = "离线";
+"online" = "在线";
+"track" = "轨迹";
+"deviceIMEI" = "设备 IMEI";
+"deviceSituation" = "设备概况";
+"deviceStatus" = "设备状态";
+"currentLocation" = "最新位置";
+"deviceSpeed" = "设备速度";
+"coordinate" = "经纬度";
+"deviceOperate" = "设备操作";
+"refreshData" = "更新状态";
+"startTime" = "开始时间";
+"endTime" = "结束时间";
+"locWay" = "定位方式";
+"speed" = "速度";
+"electronicFence" = "电子围栏";
+"createFence" = "新建围栏";
+"fenceEdit" = "围栏编辑";
+"deviceUploadRate" = "设备上传频率";
+"overspeedWarnning" = "超速警报";
+"overspeedSpeed" = "超速速度";
+"lowPowerWarnning" = "低电量报警";
+"deviceSettings" = "设备设置";
+"setElectronicFence" = "设置电子围栏";
+"numbersBinding" = "号码绑定";
+"fenceEditTips" = "请拖动缩放地图来确定围栏位置";
+"fenceName" = "围栏名字";
+"remindType" = "提醒类型";
+"remindReceive" = "接收提醒";
+"inRemind" = "进入提醒";
+"outRemind" = "离开提醒";
+"receiveWay" = "通知方式";
+"receiveInterval" = "提醒频率";
+"receiveTimes" = "通知次数";
+"receiveWay1" = "短信";
+"receiveWay2" = "电邮";
+"receiveWay3" = "电话";
+"receiveInterval1" = "5分钟";
+"receiveInterval2" = "10分钟";
+"receiveInterval3" = "15分钟";
+"receiveInterval4" = "30分钟";
+"receiveTimes1" = "1次";
+"receiveTimes2" = "2次";
+"receiveTimes3" = "3次";
+"receiveRemindInputTitle" = "请输入电话号码";
+"receiveRemindInputTitle1" = "请输入电邮地址";
+"buttonNumber" = "按键号码";
+"sosNum" = "SOS号码";
+"fenceWarning" = "请输入围栏名字";
+"fenceWarning1" = "请选择接收提醒";
+"defendOn" = "设防";
+"defendOff" = "撤防";
+"static" = "静止";
+"deleteDevice" = "删除设备";
+"oilPowerOff" = "断油电";
+"oilPowerResume" = "恢复油电";
+"mobileMonitor" = "电话监听";
+"commandHasBeenSent" = "命令已发送";
+"power" = "电量";
+"filterLBS"  = "过滤 LBS";
+"vibrationAlarm" = "震动报警";
+"SOSAlarmModel" = "SOS报警模式";
+"SOSAlarmModelSMS" = "短信报警";
+"SOSAlarmModelMobile" = "电话报警";
+"ACCAlarm" = "ACC报警";
+"restart" = "重启";
+"factoryReset" = "出厂设置";
+"powerOffAlarm" = "断电报警";
+"workMode" = "工作模式";
+"workModeNomal" = "正常模式";
+"workModePowerSaving" = "省电模式";
+"workModeSuperPowerSaving" = "超长省电模式";
+"workTime" = "工作时间";
+"starTime" = "定时开机";
+"lowPowerAlarm" = "低电报警";
+"phoneCallBack" = "电话回拨";
+"phoneCallBackTips" = "执行该操作后，设备会主动向绑定手机拨打电话";
+"petLights" = "宠物灯";
+"doorSwitch" = "车门开关";
+"headlightSwitch" = "车大灯开关";
+//message
+"alarmDetail" = "报警详情";
+"all" = "全部";
+"fence" = "围栏";
+"lowPower" = "低电";
+"overspeed" = "超速";
+"sos" = "SOS";
+"ACC" = "ACC";
+"vibration" = "震动";
+"powerDown" = "掉电";
+"type" = "类型";
+"outFenceWarning" = "出围栏报警";
+"lowPowerWarning" = "低电报警";
+"overspeedWarning" = "超速报警";
+"sosWarning" = "SOS报警";
+"ACCWarning" = "ACC报警";
+"vibrationWarning" = "震动报警";
+"powerDownWarning" = "掉电报警";
+"unkonwType" = "未知类型";
+
+//setting
+"systemSettings" = "系统设置";
+"baseSetting" = "基本设置";
+"trackRefreshTime" = "设备实时跟踪刷新";
+"mapUse" = "使用地图";
+"other" = "其他";
+"about" = "关于";
+"language" = "语言";
+"baiduMap" = "百度地图";
+"googleMap" = "谷歌地图";
+"mainRefreshTime" = "刷新时间";
+"changePassword" = "修改密码";
+"currentDeviceSettings" = "当前设备设置";
+//setting->changepassword
+"oldPassword" = "旧密码";
+"newPassword" = "新密码";
+"confirmNewPassword" = "确认新密码";
+"change" = "修改";
+"changePasswordTips" = "请输入旧密码";
+"changePasswordTips1" = "旧密码无效";
+"changePasswordTips2" = "请输入新密码";
+"changePasswordTips3" = "请输入确认新密码";
+"changePasswordTips4" = "新密码和确认新密码不一样";

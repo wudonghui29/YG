@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers
+END
+BMKCloudSearchComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h
+END
+BMKCloudSearchInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchInfo.h
+END
+BMKCloudPOIList.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h
+END
+BMKCloudSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearch.h
+END
+BMKCloudVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/app/!svn/ver/18/ios/YLDGPS/YLDGPS/3rd_Frameworks/BaiduMap/BaiduMapAPI_Cloud.framework/Headers/BMKCloudVersion.h
+END
